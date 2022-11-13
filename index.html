@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Island+Moments&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">
+            <h3>Berat Meha</h3>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h1>Hi<span id="fend">!</span> My Name is Berat Meha<span id="fend">!</span></h1>
+            <p>I am a <span>Front-End</span> Web Developer</p>
+            <button type="button">Download CV</button>
+        </div>
+        <div class="img1">
+            <img src="image/bemeha1.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skillsh1">
+            <h1>My <span id="skillsspan">Skills</span></h1>
+        </div>
+
+        <div class="skillspgph">
+            <p>I am in the process of learning the Front-End part of Web Development.</p>
+        </div>
+        
+        <section class="imgcont">
+            <div class="htmlimg">
+                 <img src="image/html5-1841458_640.png" alt="htmlimage">
+            </div>
+            <div class="css3img">
+                 <img src="image/css3-1841590_640.png" alt="css3image">
+            </div>
+            <div class="jsimg">
+                <img src="image/javascript-736400_640.png" alt="javascriptimg">
+            </div>
+        </section>
+
+        <section class="whatnext">
+            <div class="h1next">
+                <h1>What comes next for me <span id="qmark">?</span></h1>
+            </div>
+            <div class="prgh">
+                <p>After I have improved at best possible on the Front-End part, my goal is to learn the Back-End part so I become a Full Stack Web Developer.</p>
+            </div>
+        </section>
+
+        <section class="nodejs">
+            <div class="nodeimg">
+                <img src="image/node-js-736399_640.png" alt="nodejsimg">
+            </div>
+        </section>
+    </section>
+
+    <section class="aboutme" id="aboutme">
+        <div class="aboutmeh1">
+            <h1>About <span id="aboutspan">Me</span></h1>
+        </div>
+
+        <section class="aboutcont">
+            <div class="imgcont">
+                <img src="image/bemeha.jpg" alt="myimg">
+            </div>
+            <div class="prghcont">
+                <p>“Full disclosure: I am a geek. I love computers. I love everything about them. I spend eight to ten hours a day in front of a computer screen as I am coding, debugging, or discussing coding practices and methods with other programmers. I am deeply impressed when I see smart and beautiful code that does something I know is hard to accomplish. These are moments when I feel that we have only touched the surface of what we can do with computers, and I know that there is a simple solution to the current programming problem I am facing; I just need to get my head around it".</p> 
+            </div>
+        </section>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contacth1">
+            <h1>Contact <span id="contactme">Me</span></h1>
+        </div>
+
+        <div class="contactprgh">
+            <p>We can get in touch<span id="getintouch">!</span> Go ahead and contact me in one of my social medias. </p>
+        </div>
+
+        <section class="socialscontact">
+            <div class="mysocials">
+                <a href="https://www.facebook.com/berat.meha" class="fab fa-facebook-f fa-4x" id="fbicon"></a>
+                <a href="https://www.instagram.com/beratmeha/" class="fab fa-instagram fa-4x" id="instaicon"></a>
+                <a href="https://twitter.com/berat_meha" class="fab fa-twitter fa-4x" id="twittericon"></a>
+            </div>
+        </section>
+
+        <div class="lovetohear">
+            <h2>I would love to hear from You <span id="clam">!!!</span></h2>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="bottompage">
+            <h4>Coded by Berat Meha |<span id="footerspan">All Rights Reserved</span></h4>
+        </div>
+    </footer>
+
+
+
+    <script>
+
+        let menu = document.querySelector('#menubars')
+        let header = document.querySelector('header')
+
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times')
+            header.classList.toggle('active')
+        }
+
+        window.onscroll = () =>{
+            menu.classList.remove('fa-times')
+            header.classList.remove('active')
+        }
+        
+
+    </script>
+</body>
+</html>

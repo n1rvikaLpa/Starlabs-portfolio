@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, #e6e6e6, #CECBCC, #a0aab3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid orange;
+}
+
+.logo h3{
+    font-family: 'Island Moments', cursive;
+    font-size: 80px; 
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    padding:0 10px;
+    font-size: 20px;
+    color: black;
+}
+
+ul li a:hover{
+    color: orange;
+    transition: 0.3s;
+}
+.home {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.home .content h1{
+    font-size: 40px;
+}
+
+#fend{
+    color: orange;
+    font-size: 50px;
+}
+
+.home .content span{
+    color: orange;
+    font-size: 30px;
+}
+
+.home .content p{
+    font-size: 30px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #c5cacf;
+}
+
+button:hover{
+    background-color: rgb(206, 167, 94);
+    transition: 1s;
+}
+
+.home img{
+    border: 1px;
+    box-shadow: 5px 10px 18px orange;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.skills{
+    height: 100vh;
+    width: 100%;
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#skillsspan{
+    color: orange;
+}
+
+.skillsh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillspgph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.htmlimg img{
+    width: 150px;
+    height:150px;
+}
+
+.css3img img{
+    width: 150px;
+    height: 150px;
+}
+
+.jsimg img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.imgcont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#qmark{
+    color: orange;
+}
+
+.prgh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.nodejs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nodeimg img{
+    width: 700px;
+    height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutme{
+    height: 100vh;
+    width: 100%;
+}
+
+.aboutme h1 {
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#aboutspan{
+    color: orange;
+}
+
+.aboutcont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutcont img{
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    border: 1px;
+    box-shadow: 5px 10px 20px orange;
+}
+
+.aboutcont p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+}
+
+.contact{
+    width: 100%;
+    height: 100vh;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#contactme{
+    color: orange;
+}
+
+.contactprgh{
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+}
+
+#getintouch{
+    color: orange;
+    font-size: 20px;
+}
+
+.socialscontact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.socialscontact a{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    text-decoration: none;
+}
+
+#fbicon{
+    color: #4267B2;
+}
+
+#instaicon{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#twittericon{
+    color: #1DA1F2;
+}
+
+.lovetohear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clam{
+    color: orange;
+    font-size: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+}
+
+footer h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerspan{
+    color: orange;
+}
